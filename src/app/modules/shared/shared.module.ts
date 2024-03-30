@@ -7,19 +7,18 @@ import { FooterComponent } from './components/footer/footer.component';
 import { HeaderComponent } from './components/header/header.component';
 import { ProfileComponent } from './components/profile/profile.component';
 
-
+const components = [
+  SideNavComponent,
+  LogoComponent,
+  MenuComponent,
+  FooterComponent,
+  HeaderComponent,
+  ProfileComponent,
+];
 
 @NgModule({
-  declarations: [
-    SideNavComponent,
-    LogoComponent,
-    MenuComponent,
-    FooterComponent,
-    HeaderComponent,
-    ProfileComponent
-  ],
-  imports: [
-    CommonModule
-  ]
+  declarations: [components],
+  imports: [CommonModule],
+  exports: [components],
 })
-export class SharedModule { }
+export class SharedModule {}

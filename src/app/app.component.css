@@ -7,4 +7,7 @@
 
 mat-sidenav {
   width: 13%;
+  box-shadow: 5px 0px 15px -8px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 5px 0px 15px -8px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 5px 0px 15px -8px rgba(0, 0, 0, 0.75);
 }

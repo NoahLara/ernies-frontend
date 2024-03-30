@@ -1,0 +1,15 @@
+.logo-container {
+  display: flex;
+  padding: 10px;
+}
+
+.company-logo {
+  width: 85%;
+  margin: auto;
+}
+
+.separator {
+  width: 90%;
+  border: 1px solid rgb(105, 100, 100,0.2);
+  margin: auto;
+}
