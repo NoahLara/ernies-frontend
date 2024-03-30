@@ -1,0 +1,36 @@
+.menu-container {
+  display: flex;
+  background-color: #fbfbfa;
+}
+
+mat-list {
+  width: 90%;
+  margin: auto;
+}
+
+.menu-item {
+  margin-top: 10px;
+  cursor: pointer;
+  transition: all ease-in 0.2s;
+}
+
+.menu-item:hover {
+  background-color: #f0f0f0;
+  transition: all ease-out 0.2s;
+}
+
+.menu-item a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  color: #a9afbb;
+  font-size: 16px;
+}
+
+.menu-item a mat-icon {
+}
+
+.menu-item a span {
+  margin-left: 25px;
+}
